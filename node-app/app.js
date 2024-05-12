@@ -6,7 +6,7 @@ const app = express();
 
 // Define a route handler for the root path
 app.get('/', (req, res) => {
-    res.send('Hello, World from Arvind!');
+    res.send('Hello, World from Arvind');
 });
 
 // Set the port to listen for incoming requests
